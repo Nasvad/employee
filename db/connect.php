@@ -7,9 +7,9 @@
 
   //HEROKU
 $servername = "xlf3ljx3beaucz9x.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$username = "qhk1cyx98g8k22id";
-$password = "zgffr5qudwurqol1";
-$dbname   = "d5ppxxl81au16tva";
+$username = "exqpxy5xgm175bhk";
+$password = "t12dztjcfyln6j3x";
+$dbname   = "	efwizpue603oikr9";
 
 try {
   $conn = new PDO("mysql:host=$servername;dbname=$dbname;charset=utf8", $username, $password);
