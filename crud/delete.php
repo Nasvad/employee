@@ -31,6 +31,6 @@ try {
 
 $conn = null;
 
-header('Location: ../vis_user.php');
+header('Location: ../vis_func.php');
 
 ?>
