@@ -13,10 +13,9 @@
 
     <h2>Códigos BackEnd</h2>
     <a href="crud/create.php">Create</a>
+    <a href="crud/delete.php">Delete</a>
     <a href="crud/read.php">Read</a>
     <a href="crud/update.php">Update</a>
-    <a href="crud/delete.php">Delete</a>
-    <br>
 
     <h2>Páginas FrontEnd</h2>
     <a href="cad_func.html">Cadastrar Funcionário</a>
