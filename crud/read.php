@@ -36,7 +36,7 @@ try {
 
 
 
-      <a class="btn btn-outline-primary" href="crud/update.php?id='. $v['id']. '"  <i class="far fa-edit"></i>        </a>   
+      <a class="btn btn-outline-primary" href="crud/update.php?id='. $v['id']. '" > <i class="far fa-edit"></i>        </a>  
     </td>';
     echo '</tr>';
   }
