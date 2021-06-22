@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(32, 31, 31);
+  }
+  h1{
+    font-family: verdana;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 225, 255);
+
+  }
+  th{
+      font-family: 'Franklin Gothic Medium';
+      font-size: 22px;
+  }
