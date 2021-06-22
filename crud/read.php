@@ -24,9 +24,9 @@ try {
   foreach($stmt->fetchAll() as $k=>$v) {
     echo '<tr>';
     echo '<td>'.$v['id'].'</td>';
-    echo '<td>'.$v['nome'].'</td>';
-    echo '<td>'.$v['idade'].'</td>';
-    echo '<td>'.$v['email'].'</td>';
+    echo '<td>'.$v['Nome'].'</td>';
+    echo '<td>'.$v['Idade'].'</td>';
+    echo '<td>'.$v['Email'].'</td>';
     echo 
     '<td> 
 
@@ -36,7 +36,7 @@ try {
 
 
 
-      <a class="btn btn-outline-primary" href="#" >   <i class="far fa-edit"></i>        </a>   
+      <a class="btn btn-outline-primary" href="crud/update.php?='. $v['id']. '"  <i class="far fa-edit"></i>        </a>   
     </td>';
     echo '</tr>';
   }

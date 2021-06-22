@@ -1,13 +1,20 @@
 body {
-    background-color: lightblue;
+    background-image: linear-gradient(rgb(160, 153, 153), rgb(99, 99, 96));
+  }
+  echo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-align: left;
   }
   
   h2 {
-    color: white;
+    color: rgb(255, 0, 0);
     text-align: center;
   }
   
   a {
     font-family: verdana;
-    font-size: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(49, 212, 190);
   }
