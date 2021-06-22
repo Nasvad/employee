@@ -1,5 +1,5 @@
 <?php
-
+$id = $_GET['id'];
 //PAGINA DE EDIÇÃO DE FUNCIONÁRIOS
 // Dados de conexão LOCAL
 //$servername = "localhost";
@@ -18,7 +18,7 @@ try {
   // set the PDO error mode to exception
   $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $sql = "UPDATE funcionários SET Idade='34' WHERE id=2";
+  $sql = "UPDATE funcionários SET Idade='34' WHERE id=$id";
 
   // Prepare statement
   $stmt = $conn->prepare($sql);
