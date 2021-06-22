@@ -19,8 +19,8 @@
     <br>
 
     <h2>Páginas FrontEnd</h2>
-    <a href="cad_user.html">Cadastrar Funcionário</a>
-    <a href="vis_user.php.">Visualizar Funcionário</a>
+    <a href="cad_func.html">Cadastrar Funcionário</a>
+    <a href="vis_func.php.">Visualizar Funcionário</a>
 
 </body>
 </html>
