@@ -31,6 +31,7 @@ try {
 } catch(PDOException $e) {
   echo $sql . "<br>" . $e->getMessage();
 }
+header('Location: ../vis_func.php');
 
 $conn = null;
 ?>
